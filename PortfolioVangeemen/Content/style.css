@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.pimg1 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .pimg2, .pimg3{
+  position:relative;
+  opacity:0.9;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1 {
+    background-image: url('../img/image1.jpg');
+    min-height: 400px;
+}
+
+.pimg2{
+  background-image:url('../img/image2.jpeg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('../img/Experience.jpg');
+  min-height:400px;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+.headshot {
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    position: relative;
+}
+.container{
+    width: 100%;
+}
+.icons{
+    text-align:center;
+}
+
+@media only screen and (max-width: 600px) {
+    .mHeader {
+        
+    }
+}
