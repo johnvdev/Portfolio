@@ -84,11 +84,11 @@
                                                         <img src="img/Web.jpg" class="img-thumbnail">
                                                     </div>
                                                     <div class="col-md-6">
-                                                        <p>The used parts depot website consumes the parts depot api which alows users to find used parts from users around the world. If a use cannot find a used part it will show the user new parts from licensed part suppliers. </p>
+                                                        <p>The used parts depot website consumes the parts depot api which allows users to find used parts from users around the world. If a use cannot find a used part it will show the user new parts from licensed part suppliers. </p>
                                                         <ul>
                                                             <li>Bootsrap and custom css for layout management</li>
                                                             <li>JQuery to update ui without refreshing whole pages on each server request</li>
-                                                            <li>Subcaegories organized in a json format easily updateable</li>
+                                                            <li>Subcategories organized in a json format easily updateable</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -145,10 +145,10 @@
                                                         <img src="img/Api.JPG" class="img-thumbnail">
                                                     </div>
                                                     <div class="col-md-6">
-                                                        <p>The used parts depot is a REST API developed in c# that is consubed by the Web interface and android app. it serves user and parts information from the MongoDB database.</p>
+                                                        <p>The used parts depot is a REST API developed in c# that is consumed by the Web interface and android app. it serves user and parts information from the MongoDB database.</p>
                                                         <ul>
-                                                            <li>User and part endpoints with create read update and delete opperations</li>
-                                                            <li>Sends and recieves part and user objects in JSOn format fror use in multiple application types</li>
+                                                            <li>User and part endpoints with create read update and delete operations</li>
+                                                            <li>Sends and receives part and user objects in JSOn format fror use in multiple application types</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -215,14 +215,14 @@
                             </div>
                             <div class="col-md-10" style="text-align: left;">
                                 <h2>Junior Technical Analyst</h2>
-                                <p>At the Ministry of Transportation of Ontario I worked in Dev-Ops developing REST API's and front end web pages using asp.Net MVC and asp.Net Webforms projects. I worked with a team to develope a UI and API to publish compiled web applications to web servers.</p>
+                                <p>At the Ministry of Transportation of Ontario I worked in Dev-Ops developing REST API's and front end web pages using asp.Net MVC and asp.Net Webforms projects. I worked with a team to develop a UI and API to publish compiled web applications to web servers.</p>
                                 <h4>Technologies used</h4>
                                 <ul>
                                     <li>Asp.Net MVC api</li>
                                     <li>Asp.Net Webforms</li>
                                     <li>Asp.Net Core api</li>
                                     <li>Ansible</li>
-                                    <li>Javascript</li>
+                                    <li>JavaScript</li>
                                     <li>C#</li>
                                     <li>IIS</li>
                                 </ul>
@@ -248,7 +248,7 @@
 
     <div class="pimg4">
         <div class="ptext">
-            <span class="border-light">Contact and Colaborate</span>
+            <span class="border-light">Contact and Collaborate</span>
         </div>
     </div>
     <section class="section section-light" id="Contact">
@@ -305,7 +305,7 @@
                     <br />
                     <br />
                     <p>
-                        Presenting yourself in a professional manner is essential because it reflects on what type of person you are and reflected into your code quality. Code quality ties into reusability and documentation, moreover being professional enables you to be a better part of a team environment which is what most employers want in an employee. 
+                        Presenting yourself in a professional manner is essential because it reflects on what type of person you are and reflected into your code quality. Code quality ties into re usability and documentation, moreover being professional enables you to be a better part of a team environment which is what most employers want in an employee. 
                     </p>
                     <br />
                     <br />
