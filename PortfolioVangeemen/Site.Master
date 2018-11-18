@@ -15,6 +15,10 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+
 
 </head>
 <body>
@@ -47,19 +51,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" id="btnTop"  href="#!">Portfolio</a>
+                    <a class="navbar-brand" id="btnTop"  href="#!" data-toggle="collapse" data-target=".navbar-collapse.in">Portfolio</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
 
-                        <li><a id="btnAbout" href="#!" >Mission Statement</a></li>
-                        <li><a id="btnProjects" href="#!" >My Projects</a></li>
-                          <li><a id="btnExperience" href="#!" >My Experience</a></li>
+                        <li><a id="btnAbout" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >Mission Statement</a></li>
+                        <li><a id="btnProjects" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >My Projects</a></li>
+                          <li><a id="btnExperience" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >My Experience</a></li>
+                                  <li><a id="btnInsta" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >Instagram Feed</a></li>
+                           <li><a id="btnContact" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >Contact</a></li>
+                   
                        
                         
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                         <li> <asp:LinkButton id="btnDownloadResume" Text="Download Resume" OnClick="btnDownloadResume_Click" runat="server"/></li>
+                         <li> <asp:LinkButton id="btnDownloadResume" Text="Download Resume" OnClick="btnDownloadResume_Click" runat="server"  data-toggle="collapse" data-target=".navbar-collapse.in"/></li>
                     </ul>
                 </div>
             </div>

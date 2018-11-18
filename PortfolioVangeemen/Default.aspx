@@ -32,145 +32,262 @@
 
     </section>
 
-    <section id="Projects">
+    <section>
         <div class="pimg2">
             <div class="ptext">
-                <span class="border trans">My Projects
+                <span class="border-light">My Projects
                 </span>
             </div>
         </div>
     </section>
-    <section class="section-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>Used Parts Depot</h2>
-                    <h5><span class="label label-success">In Development</span></h5>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <div class="thumbnail">
+    <section class="section-light" id="Projects">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-body">
 
-                                <img src="img/Web.jpg" alt="...">
-                                <div class="caption">
-                                    <h3>Website</h3>
-
-                                    <p>ASP.NET webforms website</p>
-                                    <div class="icons">
-                                        <hr />
-                                        <h1><i class="devicon-csharp-line colored"></i><i class="devicon-javascript-plain colored"></i><i class="devicon-bootstrap-plain-wordmark colored"></i><i class="devicon-css3-plain-wordmark colored"></i><i class="devicon-jquery-plain-wordmark colored"></i></h1>
-                                        <hr />
-                                    </div>
-                                    <p><a href="#" class="btn btn-primary" role="button">View More</a> </p>
-                                </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center" style="padding-top: 30px;">
+                                <h2>Used Parts Depot</h2>
+                                <h5><span class="label label-success">In Development</span></h5>
                             </div>
                         </div>
+                        <div>
 
-                        <div class="col-sm-3">
-                            <div class="thumbnail">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#web" aria-controls="home" role="tab" data-toggle="tab">Web Page</a></li>
+                                        <li role="presentation"><a href="#app" aria-controls="profile" role="tab" data-toggle="tab">Android App</a></li>
+                                        <li role="presentation"><a href="#api" aria-controls="messages" role="tab" data-toggle="tab">ASP.NET API</a></li>
+                                        <li role="presentation"><a href="#db" aria-controls="settings" role="tab" data-toggle="tab">MongoDB</a></li>
+                                    </ul>
 
-                                <img src="img/Mobile.jpg" alt="...">
-                                <div class="caption">
-                                    <h3>Mobile App</h3>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <!-- Tab web -->
+                                        <div role="tabpanel" class="tab-pane active" id="web">
+                                            <div class="col-sm-12">
+                                                <div class="caption">
+                                                    <h3>Website</h3>
+                                                    <p>ASP.NET</p>
+                                                    <h5><span class="label label-success">In Development</span></h5>
+                                                    <div class="icons">
+                                                        <hr />
+                                                        <h1><i class="devicon-csharp-line colored"></i><i class="devicon-javascript-plain colored"></i><i class="devicon-bootstrap-plain-wordmark colored"></i><i class="devicon-css3-plain-wordmark colored"></i><i class="devicon-jquery-plain-wordmark colored"></i></h1>
+                                                        <hr />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="img/Web.jpg" class="img-thumbnail">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <p>The used parts depot website consumes the parts depot api which alows users to find used parts from users around the world. If a use cannot find a used part it will show the user new parts from licensed part suppliers. </p>
+                                                        <ul>
+                                                            <li>Bootsrap and custom css for layout management</li>
+                                                            <li>JQuery to update ui without refreshing whole pages on each server request</li>
+                                                            <li>Subcaegories organized in a json format easily updateable</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Tab app -->
+                                        <div role="tabpanel" class="tab-pane" id="app">
+                                            <div class="col-sm-12">
+                                                <div class="caption">
+                                                    <h3>Android App</h3>
+                                                    <p>Java</p>
+                                                    <h5><span class="label label-success">In Development</span></h5>
+                                                    <div class="icons">
+                                                        <hr />
+                                                        <h1><i class="devicon-android-plain-wordmark colored"></i><i class="devicon-java-plain-wordmark colored"></i></h1>
+                                                        <hr />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="img/Mobile.jpg" class="img-thumbnail">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <p>The used parts depot android app consumes the parts depot api which alows users to find used parts from users around the world. If a use cannot find a used part it will show the user new parts from licensed part suppliers. </p>
+                                                        <ul>
+                                                            <li>Subcaegories organized in a json format easily updateable</li>
+                                                            <li>uses OkHttp library for making calls to the Parts Depot API</li>
+                                                            <li>Multi-threading for speed and better UI updating</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <p>Android application in Java</p>
-                                    <div class="icons">
-                                        <hr />
-                                        <h1><i class="devicon-android-plain-wordmark colored"></i><i class="devicon-java-plain-wordmark colored"></i></h1>
-                                        <hr />
+
+
+
+
+                                        <!-- Tab api -->
+                                        <div role="tabpanel" class="tab-pane" id="api">
+                                            <div class="col-sm-12">
+                                                <div class="caption">
+                                                    <h3>REST API</h3>
+                                                    <p>C# ASP.NET MVC</p>
+                                                    <h5><span class="label label-success">In Development</span></h5>
+                                                    <div class="icons">
+                                                        <hr />
+                                                        <h1><i class="devicon-csharp-line colored"></i><i class="devicon-visualstudio-plain colored"></i></h1>
+                                                        <hr />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="img/Api.JPG" class="img-thumbnail">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <p>The used parts depot is a REST API developed in c# that is consubed by the Web interface and android app. it serves user and parts information from the MongoDB database.</p>
+                                                        <ul>
+                                                            <li>User and part endpoints with create read update and delete opperations</li>
+                                                            <li>Sends and recieves part and user objects in JSOn format fror use in multiple application types</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Tab mongo -->
+                                        <div role="tabpanel" class="tab-pane" id="db">
+                                            <div class="col-sm-12">
+                                                <div class="caption">
+                                                    <h3>MongoDB</h3>
+                                                    <p>Non relational database</p>
+                                                    <h5><span class="label label-success">In Development</span></h5>
+                                                    <div class="icons">
+                                                        <hr />
+                                                        <h1><i class="devicon-mongodb-plain-wordmark colored"></i></h1>
+                                                        <hr />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="img/Mongo.JPG" class="img-thumbnail">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <p>The used parts depot MongoDB database is a non relational databse for storing user data and parts data that is consumed by the REST API.</p>
+                                                        <ul>
+                                                            <li>Used for better scalability and reporting documents</li>
+                                                            <li>Used for analytics with future user interface platform for reporting</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <p><a href="#" class="btn btn-primary" role="button">View More</a> </p>
                                 </div>
+
                             </div>
+
                         </div>
-
-                        <div class="col-sm-3">
-                            <div class="thumbnail">
-
-                                <img src="img/Api.JPG" alt="...">
-                                <div class="caption">
-                                    <h3>API</h3>
-
-                                    <p>REST API in C# ASP.NET MVC</p>
-                                    <div class="icons">
-                                        <hr />
-                                        <h1><i class="devicon-csharp-line colored"></i><i class="devicon-visualstudio-plain colored"></i></h1>
-                                        <hr />
-                                    </div>
-                                    <p><a href="#" class="btn btn-primary" role="button">View More</a></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-3">
-                            <div class="thumbnail">
-
-                                <img src="img/Mongo.JPG" alt="...">
-                                <div class="caption">
-                                    <h3>Mongo Database</h3>
-
-                                    <p>MongoDB Database</p>
-                                    <div class="icons">
-                                        <hr />
-                                        <h1><i class="devicon-mongodb-plain-wordmark colored"></i></h1>
-                                        <hr />
-                                    </div>
-                                    <p><a href="#" class="btn btn-primary" role="button">View More</a> </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
+
+
+
     <div class="pimg3">
         <div class="ptext">
-            <span class="border trans" style="color: black;">Job Experience
+            <span class="border-light" style="color: black;">Job Experience
 
             </span>
         </div>
     </div>
 
     <section class="section section-light" id="Experience">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img class="img-rounded" style="max-width: 100%" src="img/MTO.jpg" alt="Ministry of Transportation Ontario">
+                            </div>
+                            <div class="col-md-10" style="text-align: left;">
+                                <h2>Junior Technical Analyst</h2>
+                                <p>At the Ministry of Transportation of Ontario I worked in Dev-Ops developing REST API's and front end web pages using asp.Net MVC and asp.Net Webforms projects. I worked with a team to develope a UI and API to publish compiled web applications to web servers.</p>
+                                <h4>Technologies used</h4>
+                                <ul>
+                                    <li>Asp.Net MVC api</li>
+                                    <li>Asp.Net Webforms</li>
+                                    <li>Asp.Net Core api</li>
+                                    <li>Ansible</li>
+                                    <li>Javascript</li>
+                                    <li>C#</li>
+                                    <li>IIS</li>
+                                </ul>
+                            </div>
 
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img class="img-rounded" style="max-width: 100%" src="img/MTO.jpg" alt="Ministry of Transportation Ontario">
+                        </div>
                     </div>
-                    <div class="col-md-10" style="text-align: left;">
-                        <h2>Junior Technical Analyst</h2>
-                        <p>At the Ministry of Transportation of Ontario I worked in Dev-Ops developing REST API's and front end web pages using asp.Net MVC and asp.Net Webforms projects. I worked with a team to develope a UI and API to publish compiled web applications to web servers.</p>
-                        <h4>Technologies used</h4>
-                        <ul>
-                            <li>Asp.Net MVC api</li>
-                            <li>Asp.Net Webforms</li>
-                            <li>Asp.Net Core api</li>
-                            <li>Ansible</li>
-                            <li>Javascript</li>
-                            <li>C#</li>
-                            <li>IIS</li>
-                        </ul>
-                    </div>
-
                 </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="section section-dark" id="Insta">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class='embedsocial-instagram' data-ref="5bd52873f57d56ba94dc8821e8316e187df86a5b"></div>
+                <script>(function (d, s, id) { var js; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialInstagramScript"));</script>
             </div>
         </div>
 
     </section>
 
+    <div class="pimg4">
+        <div class="ptext">
+            <span class="border-light">Contact and Colaborate</span>
+        </div>
+    </div>
+    <section class="section section-light" id="Contact">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h1>Lets Code!</h1>
+                        <h4>I am interested in working on open and closed source projects</h4>
+                        <div class="row">
+                            <div class="col-md-4 col-md-offset-4">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <h4><a class="btn btn-default" href="mailto:john@johnvangeemen.com"><i class="far fa-envelope"></i>Email</a></h4>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <h4><a class="btn btn-default" href="https://github.com/johnvdev"><i class="fab fa-github"></i>Github</a></h4>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <h4><a class="btn btn-default" href="https://www.instagram.com/johnv_dev/"><i class="fab fa-instagram"></i>Instagram</a></h4>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <h4><a class="btn btn-default" href="https://www.linkedin.com/in/john-vangeemen-ab2395148/"><i class="fab fa-linkedin"></i>Linked In</a></h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="Mission Statement" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">Mission Statement</h5>

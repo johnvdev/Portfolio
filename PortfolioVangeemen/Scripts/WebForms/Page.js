@@ -19,6 +19,20 @@ $(document).ready(function () {
         }, 1500);
     });
 
+    $("#btnContact").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#Contact").offset().top
+        }, 1500);
+    });
+
+    $("#btnInsta").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#Insta").offset().top
+        }, 1500);
+    });
+
+
+
     $("#btnTop").click(function () {
         $('html, body').animate({
             scrollTop: 0,

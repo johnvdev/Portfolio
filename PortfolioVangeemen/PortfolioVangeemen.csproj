@@ -246,12 +246,14 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Docs\Resume_John_VanGeemen.docx" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="img\Colab.jpeg" />
     <Content Include="img\Experience.jpg" />
     <Content Include="img\MTO.jpg" />
     <Content Include="img\Api.JPG" />
     <Content Include="img\Mobile.jpg" />
     <Content Include="img\pdDynamicSub.jpg" />
     <Content Include="img\pdSubMenu.JPG" />
+    <Content Include="img\image1.jpg" />
     <Content Include="img\Web.JPG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -265,7 +267,6 @@
     <Content Include="Scripts\esm\popper-utils.js.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="img\headshot.jpg" />
-    <Content Include="img\image1.jpg" />
     <Content Include="img\image2.jpeg" />
     <Content Include="img\Mongo.JPG" />
     <Content Include="Scripts\jquery-3.3.1.js" />
