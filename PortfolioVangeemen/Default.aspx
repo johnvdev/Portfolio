@@ -265,13 +265,13 @@
                                         <h4><a class="btn btn-default" href="mailto:john@johnvangeemen.com"><i class="far fa-envelope"></i>Email</a></h4>
                                     </li>
                                     <li class="list-group-item">
-                                        <h4><a class="btn btn-default" href="https://github.com/johnvdev"><i class="fab fa-github"></i>Github</a></h4>
+                                        <h4><a class="btn btn-default" href="https://github.com/johnvdev" target="_blank" ><i class="fab fa-github"></i>Github</a></h4>
                                     </li>
                                     <li class="list-group-item">
-                                        <h4><a class="btn btn-default" href="https://www.instagram.com/johnv_dev/"><i class="fab fa-instagram"></i>Instagram</a></h4>
+                                        <h4><a class="btn btn-default" href="https://www.instagram.com/johnv_dev/" target="_blank" ><i class="fab fa-instagram"></i>Instagram</a></h4>
                                     </li>
                                     <li class="list-group-item">
-                                        <h4><a class="btn btn-default" href="https://www.linkedin.com/in/john-vangeemen-ab2395148/"><i class="fab fa-linkedin"></i>Linked In</a></h4>
+                                        <h4><a class="btn btn-default" href="https://www.linkedin.com/in/john-vangeemen-ab2395148/" target="_blank" ><i class="fab fa-linkedin"></i>Linked In</a></h4>
                                     </li>
                                 </ul>
                             </div>

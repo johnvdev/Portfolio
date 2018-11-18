@@ -66,6 +66,7 @@
                         
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
+                            <li><a id="btnGit" href="https://github.com/johnvdev/Portfolio" target="_blank" ><i class="fab fa-github"></i> Github.This!</a></li>
                          <li> <asp:LinkButton id="btnDownloadResume" Text="Download Resume" OnClick="btnDownloadResume_Click" runat="server"  data-toggle="collapse" data-target=".navbar-collapse.in"/></li>
                     </ul>
                 </div>
