@@ -236,15 +236,6 @@
 
 
     </section>
-    <section class="section section-dark" id="Insta">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class='embedsocial-instagram' data-ref="5bd52873f57d56ba94dc8821e8316e187df86a5b"></div>
-                <script>(function (d, s, id) { var js; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialInstagramScript"));</script>
-            </div>
-        </div>
-
-    </section>
 
     <div class="pimg4">
         <div class="ptext">
