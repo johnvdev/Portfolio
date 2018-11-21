@@ -59,7 +59,6 @@
                         <li><a id="btnAbout" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >Mission Statement</a></li>
                         <li><a id="btnProjects" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >My Projects</a></li>
                           <li><a id="btnExperience" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >My Experience</a></li>
-                                  <li><a id="btnInsta" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >Instagram Feed</a></li>
                            <li><a id="btnContact" href="#!" data-toggle="collapse" data-target=".navbar-collapse.in" >Contact</a></li>
                    
                        

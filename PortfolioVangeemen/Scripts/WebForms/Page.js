@@ -25,11 +25,6 @@ $(document).ready(function () {
         }, 1500);
     });
 
-    $("#btnInsta").click(function () {
-        $('html, body').animate({
-            scrollTop: $("#Insta").offset().top
-        }, 1500);
-    });
 
 
 
