@@ -84,7 +84,7 @@
                                                         <img src="img/Web.jpg" class="img-thumbnail">
                                                     </div>
                                                     <div class="col-md-6">
-                                                        <p>The used parts depot website consumes the parts depot api which allows users to find used parts from users around the world. If a use cannot find a used part it will show the user new parts from licensed part suppliers. </p>
+                                                        <p>The used parts depot website consumes the parts depot api which allows users to find used parts from users around the world. If a user cannot find a used part it will show the user new parts from licensed part suppliers. </p>
                                                         <ul>
                                                             <li>Bootsrap and custom css for layout management</li>
                                                             <li>JQuery to update ui without refreshing whole pages on each server request</li>
