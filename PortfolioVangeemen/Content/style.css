@@ -25,7 +25,8 @@ html {
 
 .pimg1 {
     background-image: url('../img/image1.jpg');
-    min-height: 400px;
+    min-height: 800px;
+
 }
 
 .pimg2{
@@ -89,9 +90,8 @@ html {
     padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
-    width: 200px;
-    height: auto;
+    border-radius: 25%;
+    width: 250px;
     position: relative;
 }
 .container{

@@ -6,7 +6,7 @@
     <section id="Top"></section>
     <div class="pimg1">
         <div>
-            <img src="img/headshot.jpg" alt="Avatar" class="headshot">
+            <img src="img/headshot.jpg"  class="headshot">
         </div>
         <div class="ptext">
 
