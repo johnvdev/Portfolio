@@ -24,6 +24,12 @@ $(document).ready(function () {
             scrollTop: $("#Contact").offset().top
         }, 1500);
     });
+    $("#btnEducation").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#Education").offset().top
+        }, 1500);
+    });
+
 
 
 

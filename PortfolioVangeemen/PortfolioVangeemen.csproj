@@ -249,9 +249,11 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="img\Colab.jpeg" />
     <Content Include="img\Experience.jpg" />
+    <Content Include="img\Higher-Education-12.jpg" />
     <Content Include="img\MTO.jpg" />
     <Content Include="img\Api.JPG" />
     <Content Include="img\Mobile.jpg" />
+    <Content Include="img\Niagara-college_vectorized.svg.png" />
     <Content Include="img\pdDynamicSub.jpg" />
     <Content Include="img\pdSubMenu.JPG" />
     <Content Include="img\image1.jpg" />

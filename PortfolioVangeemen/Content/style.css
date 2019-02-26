@@ -9,7 +9,7 @@ html {
     background-repeat: no-repeat;
 }
 
- .pimg2, .pimg3, .pimg4{
+ .pimg2, .pimg3, .pimg4, .pimg5{
   position:relative;
   opacity:0.9;
   background-position:center;
@@ -41,6 +41,11 @@ html {
 
 .pimg4 {
     background-image: url('../img/Colab.jpeg');
+    min-height: 400px;
+}
+
+.pimg5 {
+    background-image: url('../img/Higher-Education-12.jpg');
     min-height: 400px;
 }
 

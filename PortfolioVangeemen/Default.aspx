@@ -237,6 +237,45 @@
 
     </section>
 
+        <div class="pimg5">
+        <div class="ptext">
+            <span class="border-light" style="color: black;">Education
+
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light" id="Education">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img class="img-rounded" style="max-width: 100%" src="img/Niagara-college_vectorized.svg.png" alt="Ministry of Transportation Ontario">
+                            </div>
+                            <div class="col-md-10" style="text-align: left;">
+                                <h2>Computer programmer analyst advanced diploma</h2>
+                                <p>Niagara college gave me the skills to learn. The instructors didnt just teach us content from a text book the whole time. They gave us hands on projects and we used what we knew to solve the issues, but we also had to learn on our own aswell, just like a real world scenario. The instructors were always kind and loved to talk about other technologies after class which made my experience that much more enjoyable. Its the little things that can make your college experience a great time.</p>
+                                <h4>Technologies used</h4>
+                                <ul>
+                                    <li>Asp.Net MVC, Web Forms, Console, Desktop apps </li>
+                                    <li>Rapid application develpoment</li>
+                                    <li>SQL, My SQL, Mongo DB</li>
+                                    <li>Network security</li>
+                                    <li>JavaScript</li>
+                                    <li>C#</li>
+                                    <li>Many more..</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="pimg4">
         <div class="ptext">
             <span class="border-light">Contact and Collaborate</span>
