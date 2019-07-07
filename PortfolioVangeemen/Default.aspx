@@ -6,7 +6,7 @@
     <section id="Top"></section>
     <div class="pimg1">
         <div>
-            <img src="img/headshot.jpg"  class="headshot">
+            <img src="img/headshot.jpg" class="headshot">
         </div>
         <div class="ptext">
 
@@ -31,7 +31,7 @@
         </div>
 
     </section>
-
+<section class="section-light" id="Projects">
     <section>
         <div class="pimg2">
             <div class="ptext">
@@ -40,7 +40,7 @@
             </div>
         </div>
     </section>
-    <section class="section-light" id="Projects">
+    
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
@@ -55,14 +55,14 @@
                         <div>
 
                             <div class="row">
-                                <div class="col-md-12" style="width:100%; max-height:400px; overflow-y:scroll;">
-                                    <img style="width:100%;" src="img/Screenshot_2019-07-07 Home Page - Over The Top Transom Repair.jpg" />
+                                <div class="col-md-12" style="width: 100%; max-height: 400px; overflow-y: scroll;">
+                                    <img style="width: 100%;" src="img/Screenshot_2019-07-07 Home Page - Over The Top Transom Repair.jpg" />
                                 </div>
 
                             </div>
                             <div class="row">
                                 <div class="col-md-4 col-md-offset-4">
-                                    <a class="btn btn-success form-control" style="margin-top:30px;" href="https://www.overthetoptransomrepair.ca">Visit Website!</a>
+                                    <a class="btn btn-success form-control" style="margin-top: 30px;" href="https://www.overthetoptransomrepair.ca">Visit Website!</a>
                                 </div>
                             </div>
 
@@ -225,7 +225,7 @@
 
 
 
-
+    <section class="section section-light" id="Experience">
     <div class="pimg3">
         <div class="ptext">
             <span class="border-light" style="color: black;">Job Experience
@@ -234,11 +234,41 @@
         </div>
     </div>
 
-    <section class="section section-light" id="Experience">
+
+        <%--OSI--%>
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
                     <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img class="img-rounded" style="max-width: 100%" src="img/22daa9b3457d60d219b38795ba9eeb8a.jpg" alt="Organizational solutions inc">
+                            </div>
+                            <div class="col-md-10" style="text-align: left;">
+                                <h2>Lead .Net / SQL Developer Developer</h2>
+                                <p>At organizational solutions my role Lead is .Net / SQL Developer, develpoing solutions for a disibility management platform. Creating and maintaining custom dynamic forms for different disibilty types. Planning and creating different workflows in a matrix style team to get the best solution for disibility management for our clients through code.</p>
+                                <h4>Technologies used</h4>
+                                <ul>
+                                    <li>Asp.Net api</li>
+                                    <li>Asp.Net Webforms</li>
+                                    <li>JQuery</li>
+                                    <li>SQL</li>
+                                    <li>JavaScript</li>
+                                    <li>C#</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%--ministry of transportation--%>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
                         <div class="row">
                             <div class="col-md-2">
                                 <img class="img-rounded" style="max-width: 100%" src="img/MTO.jpg" alt="Ministry of Transportation Ontario">
@@ -263,11 +293,9 @@
                 </div>
             </div>
         </div>
-
-
     </section>
-
-        <div class="pimg5">
+  <section class="section section-light" id="Education">
+    <div class="pimg5">
         <div class="ptext">
             <span class="border-light" style="color: black;">Education
 
@@ -275,7 +303,7 @@
         </div>
     </div>
 
-    <section class="section section-light" id="Education">
+  
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
@@ -305,13 +333,13 @@
             </div>
         </div>
     </section>
-
+ <section class="section section-light" id="Contact">
     <div class="pimg4">
         <div class="ptext">
             <span class="border-light">Contact and Collaborate</span>
         </div>
     </div>
-    <section class="section section-light" id="Contact">
+   
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
@@ -325,13 +353,13 @@
                                         <h4><a class="btn btn-default" href="mailto:john@johnvangeemen.com"><i class="far fa-envelope"></i>Email</a></h4>
                                     </li>
                                     <li class="list-group-item">
-                                        <h4><a class="btn btn-default" href="https://github.com/johnvdev" target="_blank" ><i class="fab fa-github"></i>Github</a></h4>
+                                        <h4><a class="btn btn-default" href="https://github.com/johnvdev" target="_blank"><i class="fab fa-github"></i>Github</a></h4>
                                     </li>
                                     <li class="list-group-item">
-                                        <h4><a class="btn btn-default" href="https://www.instagram.com/johnv_dev/" target="_blank" ><i class="fab fa-instagram"></i>Instagram</a></h4>
+                                        <h4><a class="btn btn-default" href="https://www.instagram.com/johnv_dev/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></h4>
                                     </li>
                                     <li class="list-group-item">
-                                        <h4><a class="btn btn-default" href="https://www.linkedin.com/in/john-vangeemen-ab2395148/" target="_blank" ><i class="fab fa-linkedin"></i>Linked In</a></h4>
+                                        <h4><a class="btn btn-default" href="https://www.linkedin.com/in/john-vangeemen-ab2395148/" target="_blank"><i class="fab fa-linkedin"></i>Linked In</a></h4>
                                     </li>
                                 </ul>
                             </div>

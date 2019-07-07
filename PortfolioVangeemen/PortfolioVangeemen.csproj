@@ -247,6 +247,7 @@
     <Content Include="Docs\Resume_John_VanGeemen.docx" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="img\22daa9b3457d60d219b38795ba9eeb8a.jpg" />
     <Content Include="img\Colab.jpeg" />
     <Content Include="img\Experience.jpg" />
     <Content Include="img\Higher-Education-12.jpg" />
