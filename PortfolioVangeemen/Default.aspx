@@ -56,7 +56,7 @@
 
                             <div class="row">
                                 <div class="col-md-12" style="width:100%; max-height:400px; overflow-y:scroll;">
-                                    <img style="width:100%;" src="img/Screenshot_2019-02-26%20Home%20Page%20-%20Over%20The%20Top%20Transom%20Repair.jpg" />
+                                    <img style="width:100%;" src="img/Screenshot_2019-07-07 Home Page - Over The Top Transom Repair.jpg" />
                                 </div>
 
                             </div>
