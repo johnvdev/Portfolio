@@ -14,7 +14,7 @@
             </span>
         </div>
         <div class="ptext" style="top: 65%;">
-            <span class="border">Programmer Analyst 
+            <span class="border">Full Stack Developer
             </span>
         </div>
     </div>
